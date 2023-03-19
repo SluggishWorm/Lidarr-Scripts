@@ -53,19 +53,6 @@ exec &> >(tee -a "/config/logs/Video.txt")
 touch "/config/logs/Video.txt"
 chmod 666 "/config/logs/Video.txt"
 
-log "-----------------------------------------------------------------------------"
-log "|~) _ ._  _| _ ._ _ |\ |o._  o _ |~|_|_|"
-log "|~\(_|| |(_|(_)| | || \||| |_|(_||~| | |<"
-log "Presents: lidarr-extended ($scriptVersion)"
-log "Docker Version: $dockerVersion"
-log "May the vidz be with you!"
-log "-----------------------------------------------------------------------------"
-log "Donate: https://github.com/sponsors/RandomNinjaAtk"
-log "Project: https://github.com/RandomNinjaAtk/docker-lidarr-extended"
-log "Support: https://github.com/RandomNinjaAtk/docker-lidarr-extended/discussions"
-log "-----------------------------------------------------------------------------"
-sleep 5
-log ""
 log "Lift off in..."; sleep 0.5
 log "5"; sleep 1
 log "4"; sleep 1
